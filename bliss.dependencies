@@ -14,9 +14,9 @@
   },
   {
     "remote": "github",
-    "repository": "transi/kernel_amazon_bowser-common",
+    "repository": "electrikjesus/kernel_amazon_bowser-common",
     "target_path": "kernel/amazon/bowser-common",
-    "revision": "cm-13.0"
+    "revision": "mm6.0"
   },
   {
     "remote": "github",
