@@ -1,10 +1,10 @@
 
 [
   {
-    "remote": "BlissRoms-Devices",
-    "repository": "android_device_amazon_bowser-common",
+    "remote": "github",
+    "repository": "manu3193/android_device_amazon_bowser-common",
     "target_path": "device/amazon/bowser-common",
-    "revision": "mm6.0"
+    "revision": "cm-13.0"
   },
   {
     "remote": "BlissRoms-Devices",
