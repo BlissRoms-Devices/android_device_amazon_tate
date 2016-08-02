@@ -1,8 +1,7 @@
-
 [
   {
-    "remote": "github",
-    "repository": "electrikjesus/android_device_amazon_bowser-common",
+    "remote": "BlissRoms-Devices",
+    "repository": "android_device_amazon_bowser-common",
     "target_path": "device/amazon/bowser-common",
     "revision": "mm6.0"
   },
@@ -14,9 +13,9 @@
   },
   {
     "remote": "github",
-    "repository": "electrikjesus/kernel_amazon_bowser-common",
+    "repository": "transi/kernel_amazon_bowser-common",
     "target_path": "kernel/amazon/bowser-common",
-    "revision": "mm6.0"
+    "revision": "cm-13.0"
   },
   {
     "remote": "github",
