@@ -14,7 +14,6 @@
 
 DEVICE_FOLDER := device/amazon/tate
 TARGET_BOARD_OMAP_CPU := 4460
-TARGET_ARCH := arm
 
 # inherit from common
 -include device/amazon/bowser-common/BoardConfigCommon.mk
