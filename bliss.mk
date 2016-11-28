@@ -12,17 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common Bliss stuff.
+$(call inherit-product, vendor/bliss/config/common.mk)
 
 # Inherit device configuration for bowser
 $(call inherit-product, device/amazon/tate/full_tate.mk)
-$(call inherit-product, device/amazon/bowser-common/cm.mk)
+$(call inherit-product, device/amazon/bowser-common/bliss.mk)
 
 #TARGET_SCREEN_WIDTH := 1280
 TARGET_SCREEN_WIDTH := 480
 TARGET_SCREEN_HEIGHT := 800
 
-PRODUCT_NAME := cm_tate
+PRODUCT_NAME := bliss_tate
 PRODUCT_RELEASE_NAME := KindleFireHD
 
