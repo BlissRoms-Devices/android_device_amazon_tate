@@ -14,6 +14,7 @@
 
 DEVICE_FOLDER := device/amazon/tate
 TARGET_BOARD_OMAP_CPU := 4460
+TARGET_ARCH := arm
 
 # inherit from common
 -include device/amazon/bowser-common/BoardConfigCommon.mk
@@ -27,7 +28,7 @@ TARGET_KERNEL_CONFIG := android_omap4_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := android_tate_defconfig
 BOARD_KERNEL_CMDLINE := mem=1G androidboot.hardware=bowser console=ttyO2,115200n8 androidboot.console=ttyO2 androidboot.selinux=permissive
 
-TARGET_GCC_VERSION_ARM := 4.8
+#TARGET_GCC_VERSION_ARM := 4.8
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-$(TARGET_GCC_VERSION_ARM)/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
